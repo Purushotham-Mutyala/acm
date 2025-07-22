@@ -1,8 +1,8 @@
-# Git Exercises Completion 🎯
+# Git Exercises Completion 
 
 I successfully completed the [Git Exercises](https://gitexercises.fracz.com/) by Wojciech Frącz, which provided an excellent hands-on way to master Git concepts through practical challenges.
 
-## 🚀 About the Exercises
+##  About the Exercises
 A series of progressively challenging Git tasks covering:
 - Basic commits & branching
 - Rebasing and merging
@@ -24,7 +24,7 @@ A series of progressively challenging Git tasks covering:
 4. **Stash Workflow**  
    Understood when to use `git stash` vs creating temporary branches
 
-## 🧗 Challenges Faced
+##  Challenges Faced
 - **Level 5 (Fix Old Typo):**  
   Struggled with rebasing commits while preserving changes  
   *Solution:* Learned to use `git rebase -i` with `edit` instead of `amend`
@@ -33,7 +33,7 @@ A series of progressively challenging Git tasks covering:
   Initially failed to properly use `git bisect`  
   *Breakthrough:* Created automated test scripts for bisect (`git bisect run`)
 
-## 🔍 How I Solved Problems
+##  How I Solved Problems
 Developed effective troubleshooting techniques:
 1. **Precise Googling**  
    Used targeted searches like "git rebase preserve changes" instead of generic terms
