@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Book Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Author Book Finder</h1>
+            <p>Discover books by your favorite authors</p>
+        </header>
+        
+        <main>
+            <div class="search-container">
+                <form id="searchForm">
+                    <input type="text" id="authorInput" placeholder="Enter author name (e.g., james clear)" required>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Searching for books...</p>
+            </div>
+            
+            <div id="results"></div>
+        </main>
+        
+        <footer>
+            <p>Powered by Firebase and Open Library API</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

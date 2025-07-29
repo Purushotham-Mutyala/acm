@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #0a0a1a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a1a3a, #0a0a1a);
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+#apod-container {
+    background: rgba(20, 20, 50, 0.7);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px rgba(100, 100, 255, 0.2);
+}
+
+#media-container {
+    margin-bottom: 1.5rem;
+}
+
+#media-container img, #media-container iframe {
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+#loading, #error-message {
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}

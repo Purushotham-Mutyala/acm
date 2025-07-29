@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interstellar Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌌 Interstellar Explorer</h1>
+        <p>Daily cosmic wonders from NASA's APOD</p>
+    </header>
+    
+    <main>
+        <div id="loading">Loading today's cosmic wonder...</div>
+        <div id="apod-container">
+            <div id="media-container">
+                <!-- image  -->
+            </div>
+            <div id="info-container">
+                <h2 id="apod-title"></h2>
+                <p id="apod-date"></p>
+                <p id="apod-explanation"></p>
+            </div>
+        </div>
+        <div id="error-message"></div>
+    </main>
+    
+    <footer>
+        <p>Powered by NASA's Astronomy Picture of the Day API</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
