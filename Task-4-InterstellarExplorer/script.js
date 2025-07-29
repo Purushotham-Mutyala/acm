@@ -1,5 +1,5 @@
 
-const API_KEY = 'mBHEw05UwJhi1L5Ugw5mWRqOA8grk3ByTELdZ04v'; // Replace with your actual key
+const API_KEY = 'mBHEw05UwJhi1L5Ugw5mWRqOA8grk3ByTELdZ04v'; 
 const APOD_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
 
