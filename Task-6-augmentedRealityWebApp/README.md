@@ -23,4 +23,4 @@ An augmented reality web application that displays an interactive solar system w
 ### 1. Run the Application
 ```bash
 git clone https://github.com/Purushotham-Mutyala/acm.git
-cd acm/Task-6-augmentedRealityWebApp
+cd acm/Task-6-augmentedRealityWebApp 

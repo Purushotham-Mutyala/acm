@@ -1,5 +1,5 @@
 
-const API_KEY = 'mBHEw05UwJhi1L5Ugw5mWRqOA8grk3ByTELdZ04v'; 
+const API_KEY = import.meta.env.VITE_NASA_API_KEY; 
 const APOD_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
 
